@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.d-fl {
+  display: flex;
+}
+
+.fl-w {
+  flex-wrap: wrap;
+}
+
+.td-lt {
+  text-decoration: line-through;
+}
+
+ul.results-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.results-ul li.item {
+  border: grey solid 1px;
+  padding: 0.25em 1em;
+  margin: 0.25em;
+  flex: 1;
+}
+
+ul.results-ul li.item p {
+  font-style: italic;
+  color: grey;
+}

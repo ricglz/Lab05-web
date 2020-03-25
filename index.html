@@ -4,6 +4,8 @@
     <title>
       Shopping List
     </title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+    <script defer src="./js/index.js"></script>
   </head>
   <body>
     <header>
@@ -16,14 +18,14 @@
           <label>
             Add an item
           </label>
-          <input type="text" placeholder="e.g., broccoli">
-          <button type="submit">
+          <input type="text" placeholder="e.g., broccoli" id="item-input">
+          <button type="submit" id="submit-btn">
             Add item
           </button>
       </form>
     </main>
     <section class="results">
-      <ul>
+      <ul class="results-ul d-fl fl-w" id="results-ul">
       </ul>
     </section>
   </body>
